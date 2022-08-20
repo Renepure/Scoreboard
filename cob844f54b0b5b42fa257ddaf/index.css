@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: blue;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: dotted
+}
+
+.score {
+     background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    border: dotted;
+}
+
+.column{
+    flex-direction: column;
+    
+    
+}
+
+
+
+
+
+
+
+
+.timer
+{
+    
+    border: dotted;
+}
+/* .timer{
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 24px 32px;
+    border-radius: 30px;
+    background: white;
+    
+}
+.timer__part{
+    font-size: 36px;
+    font-weight: bold;
+    width: 300px;
+}
+.timer__btn{
+    width: 66px;
+    height: 60px;
+border-radius: 50%; 
+    
+} */

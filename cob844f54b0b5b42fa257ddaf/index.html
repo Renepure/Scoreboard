@@ -1,0 +1,67 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container"> 
+             <div class="column">   
+                <h3>HOME</h3>
+                     <h2 class="score" id="homeScore" id="resetall">0</h2>
+                     <h1>Fouls</h1>
+                     <h1 class="foulsScore" id="foulscoreh">0</h1>
+                       <div>
+                       <button id="homeScorebtn1" onclick="add1h()">+1</button>
+                       <button id="homescorebtn2" onclick="add2h()">+2</button>
+                       <button id="homescorebtn3" onclick="add3h()">+3</button>
+                       </div>
+                        <div>
+                       <button id="removehomeScorebtn1" onclick="remove1h()">-1</button>
+                       <button id="removehomescorebtn2" onclick="remove2h()">-2</button>
+                       <button id="removehomescorebtn3" onclick="remove3h()">-3</button>
+                       </div>
+                        <div>
+                       <button id="removehomefoulscorebtn1" onclick="removefoulhome1()">-1</button>
+                       <button id="addhomefoulscoretbn1" onclick="addfoulhome1()">+1</button>
+                       
+                       </div>
+               </div>
+               
+               <div class="column">
+                   <h3>Periode</h3>
+                   <h2 class="pcontainer" id="periode">0</h2>
+                   
+                    <div>
+                    <button id="removeperiodebtn1" onclick="remove1periode()">-1</button> 
+                    <button id="periodebtn1" onclick="add1periode()">+1</button>
+                   </div>
+               </div>
+               
+            <div class="column"> 
+                <h3>GUEST</h3>
+                <h2 class="score" id="guestScore">0</h2>
+                <h1>Fouls</h1>
+                     <h1 class="foulsScore" id="foulscoreg">0</h1>
+                <div>
+                    <button id="guestscorebtn1" onclick="add1g()">+1</button>
+                    <button id="guestscorebtn2" onclick="add2g()">+2</button>
+                    <button id="guestscorebtn3" onclick="add3g()">+3</button>
+                </div>
+                <div>
+                       <button id="removeguestScorebtn1" onclick="remove1g()">-1</button>
+                       <button id="removeguestscorebtn2" onclick="remove2g()">-2</button>
+                       <button id="removeguestscorebtn3" onclick="remove3g()">-3</button>
+                       </div>
+                        <div>
+                       <button id="removeguestfoulscorebtn1" onclick="removefoulguest1()">-1</button>
+                       <button id="addguestfoulscoretbn1" onclick="addfoulguest1()">+1</button>
+                       
+                       </div>
+            </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    
+    
+    <button id"reset" onclick="settozero">reset</button>
+</html>
